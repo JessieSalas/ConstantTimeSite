@@ -72,6 +72,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
+
 .button:hover {
   background: #fff;
   text-decoration: none;
@@ -134,4 +135,24 @@ h1 {
     width: 70%;
   }
 }
+@media only screen and (max-device-width: 480px) {
+  .box{
+width: 70%;
+}
+.popup{
+width: 70%;
+}
+.button {
+font-size: 20px;
+font-size: 8.5vmin;
+padding: 10px;
+color: #fff;
+border: 2px solid #fff;
+border-radius: 20px/50px;
+text-decoration: none;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
 
+
+        }
